@@ -1,2 +1,4 @@
-print("Hello")
-import cv2
+import pyjokes
+
+joke = pyjokes.get_joke()
+print(joke)
